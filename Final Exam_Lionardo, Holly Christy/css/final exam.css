@@ -188,4 +188,18 @@ hr {
     h1 {
         font-size: 36px;
     }
+
+    .kontak_content, .container_beasiswa, .tentang_content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: minmax(25px, 1fr) 16em;
+        grid-template-rows: auto min-height 5em;
+    }
 }
